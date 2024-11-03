@@ -1,0 +1,33 @@
+.titulo{
+    color: #f72585;
+    text-align: center;
+    margin:15px;
+}
+h2{
+    color: #3f37c9;
+}
+p{
+    color: #457b9d;
+}
+/*Clase de CSS*/
+.tarjeta{
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 10px 300px;
+    padding:30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo2{
+    color: #f72585;
+}
+/*Identificador CSS*/
+#titulo_principal{
+    color:red;
+    text-align: center;
+    margin:30px;
+    text-decoration:underline;
+}

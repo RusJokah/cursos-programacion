@@ -1,0 +1,32 @@
+table{
+    width:100%;
+}
+table, th, td{
+    border:1px solid blue;
+    padding: 10px;
+    border-collapse: collapse;
+    /*border-spacing: 5px;*/
+    text-align: center;
+}
+caption{
+    color:blueviolet;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color:rgb(255, 255, 255);
+    background-color: rgb(168, 71, 247);
+    font-size: 20px;
+}
+/* Para los pares se usa even, para impares se usa odd*/
+tr:nth-child(even){
+    background-color:azure;
+}
+tr:nth-child(odd){
+    background-color: rgb(209, 240, 255);
+}
+/*td{
+    text-align: center;
+    padding: 20px;
+}*/

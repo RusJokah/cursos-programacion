@@ -1,0 +1,20 @@
+h1{
+    color:blueviolet;
+}
+a:link {
+    color:brown;
+    text-decoration: none;
+}
+a:visited{
+    color:blueviolet;
+    text-decoration: none;
+}
+/* Cuando nos ponemos encima del link */
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+/* Mientras estás presionando clic */
+a:active{
+    color:darkblue;
+}
