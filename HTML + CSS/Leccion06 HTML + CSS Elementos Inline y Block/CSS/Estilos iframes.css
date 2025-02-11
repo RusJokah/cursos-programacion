@@ -9,6 +9,7 @@
     color: #9619b5;
     border: 5px solid #9619b5;
     text-align: center;
+    display: inline-block;
 }
 .irelementos:hover{
     color: #cc00ff;
