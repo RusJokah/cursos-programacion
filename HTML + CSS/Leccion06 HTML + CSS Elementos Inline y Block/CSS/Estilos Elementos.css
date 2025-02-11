@@ -6,9 +6,9 @@
 .iframesbutton{
     text-decoration:none;
     padding: 15px 25px;
-    margin: 15px;
+    margin: 15px 15px;
     color: #9619b5;
-    border: 2px solid #9619b5;
+    border: 5px solid #9619b5;
     text-align: center;
 }
 .iframesbutton:hover{
