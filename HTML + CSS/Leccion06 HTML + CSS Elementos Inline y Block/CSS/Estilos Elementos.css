@@ -3,6 +3,17 @@
     text-align: center;
     margin:15px;
 }
+.iframesbutton{
+    text-decoration:none;
+    padding: 15px 25px;
+    margin: 15px;
+    color: #9619b5;
+    border: 2px solid #9619b5;
+    text-align: center;
+}
+.iframesbutton:hover{
+    color: #cc00ff;
+    border-color: #cc00ff;
 h2{
     color: #3f37c9;
 }
@@ -16,10 +27,6 @@ p{
     text-align: center;
     margin: 10px 300px;
     padding:30px;
-}
-*{
-    margin: 0;
-    padding: 0;
 }
 .titulo2{
     color: #f72585;
