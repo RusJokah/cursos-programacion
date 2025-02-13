@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form action="mi_servidor" method="POST">
+        <!-- method="POST" Método para que no se visualice los strings sensibles tipo password en la URL -->
+        <!--Usar autocomplete="off" dentro del form para que no salgan sugerencias al rellenar inputs-->
+        <fieldset><!--fieldset para cerrar el formulario en un box y legend para añadirle un título-->
+            <legend>Datos Persona:</legend>
+
+            <label for="idPersona">ID Persona:</label><br>
+            <input type="text" id="idPersona" name="idPersona"
+                readonly="true" value="100" disabled="true"><br><!--Si ponemos disabled, el valor NO se enviará al servidor-->
+
+            <input type="hidden" id="sistema" name="sistema" value="SAP">
+
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+    
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+    
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required="true"><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+    
+            <label for="edad">Edad:</label><br>
+            <input type="number" id="edad" name="edad" min="0" step="any"><br><br>
+    
+            <label>Género:</label><br>
+            <input type="radio" id="femenino" name="genero" value="femenino" checked><!--Checked para selección tipo radio-->
+            <label for="femenino">Femenino</label><br>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="nogenero" name="genero">
+            <label for="nogenero">Prefiero no decirlo</label><br><br>
+    
+            <label>Género Música Favorita:</label><br>
+            <input type="checkbox" id="clasica" name="musica" value="clasica">
+            <label for="clasica">Clásica</label><br>
+            <input type="checkbox" id="pop" name="musica" value="pop">
+            <label for="pop">Pop</label><br>
+            <input type="checkbox" id="jazz" name="musica" value="jazz">
+            <label for="jazz">Jazz</label><br><br>
+    
+            <label for="autos">Marca de coche favorita:</label><br>
+            <select id="autos" name="autos">
+                <option value="volvo">Volvo</option>
+                <option value="bmw" selected="true">BMW</option><!--Selected para que salga preseleccionado-->
+                <option value="Audi">Audi</option>
+            </select><br/><br>
+    
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="3" cols="30" placeholder="Escriba aquí su comentario"></textarea><br><br>
+    
+    
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar sin validar" formnovalidate="formnovalidate">
+            <input type="reset" value="Restablecer">
+        </fieldset>
+        </form>
+</body>
+</html>

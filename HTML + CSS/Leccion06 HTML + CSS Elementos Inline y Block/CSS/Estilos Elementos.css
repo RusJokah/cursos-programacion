@@ -40,3 +40,14 @@ p{
     margin:30px;
     text-decoration:underline;
 }
+<<<<<<< Updated upstream
+=======
+.boton{
+    background-color: white;
+    border: 2px solid #457b9d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0px 0px 10px;
+}
+>>>>>>> Stashed changes
