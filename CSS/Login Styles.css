@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.Leccionlink{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #457b9d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+.Leccionlink:hover{
+        background-color: #8acdf7;
+        color:#f72585;
+        border-color: #f72585;
+    }
