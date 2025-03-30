@@ -42,4 +42,7 @@ footer{
 }
 footer a{
     text-decoration: none;
+    clear: both;
+    padding: 10%;
+    text-align: center;
 }
