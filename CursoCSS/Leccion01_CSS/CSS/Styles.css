@@ -1,4 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(208, 255, 239);
+    color: blue;
+}
 #titulo{
-    color:crimson;
+    color:rgb(104, 25, 41);
     text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 20px;
+}
+h2, p{
+    color: crimson;
+    text-align: center;
+}
+p.centrar{
+    text-align: center;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    display: flex;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    float: left;
 }

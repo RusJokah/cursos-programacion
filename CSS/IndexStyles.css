@@ -21,11 +21,11 @@
     }
 h1{
     padding: 10px;
-    margin: 10px;
+    margin: 20px 10px;
 }
 footer{
     clear: both;
-    padding: 10%;
+    padding: 50px;
     text-align: center;
 }
 footer a{
@@ -34,4 +34,30 @@ footer a{
     padding: 5px;
     color:deeppink;
     border-color: darkviolet;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(93, 0, 133);
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+#ListaCursoHTML{
+    float: left;
+    margin-left: 200px;
+}
+#ListaCursoCSS{
+    float: right;
+    margin-right: 200px;
 }
