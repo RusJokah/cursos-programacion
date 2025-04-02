@@ -1,0 +1,44 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 40px auto 40px;
+    text-align: center;
+}
+body{
+    /*
+    background-color: cornsilk;
+    color: dodgerblue;
+    background-image: url("/CursoCSS/Leccion06_Fondos/img/fondo.jpg");
+    background-size: 100%;
+    */
+    background: cornsilk url("/CursoCSS/Leccion06_Fondos/img/fondo.jpg") 100%;
+    background-attachment: fixed;
+}

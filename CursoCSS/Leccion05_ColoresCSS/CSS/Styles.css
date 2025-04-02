@@ -1,0 +1,79 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    color: #b6000f;
+    margin: 40px auto 50px;
+}
+.box{
+    padding: 20px;
+    color: white;
+    width: 18%;
+    height: 50px;
+    text-align: center;
+    margin: 5px 5px;
+    font-size: 15px;
+    float: left;
+}
+.linea{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.lineanueva::after{
+    display: table;
+    clear: both;
+}
+.rojo{
+    background-color: crimson;
+}
+.rosa{
+    background-color: deeppink;
+}
+.rgb{
+    background-color: rgb(146, 12, 146);
+}
+.rgba{
+    background-color: rgba(146, 12, 146, 0.5);
+}
+.hexadecimal{
+    background-color: #0091ad;
+}
+.hexa_transparencia{
+    background-color: #0090ad7a;
+}
+.hsl{
+    background-color: hsl(195, 100%, 50%);
+}
+.hsla{
+    background-color: hsla(195, 100%, 50%, 0.5);
+}
