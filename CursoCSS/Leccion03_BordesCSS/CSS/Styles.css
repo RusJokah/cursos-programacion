@@ -1,0 +1,77 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold lime;
+}
+.discontinuo{
+    border-style: dashed;
+    border-width: thick; /*thin, medium, thick*/
+    border-radius: 20px 0px 10px 0px;
+}
+.solido{
+    border: solid red;
+    border-width: 5px;
+    border-radius: 20px;
+}
+.doble{
+    border: double blueviolet;
+    border-width: 10px 5px;
+}
+.surco{
+    border: 5px groove;
+    /*
+    border-width: 10px;
+    border-style: groove;
+    */
+}
+.cresta{
+    border: 5px ridge;
+}
+.recuadro{
+    border: 5px inset;
+}
+.outset{
+    border: 5px outset;
+}
+.sinborde{
+    border: none;
+}
+.oculto{
+    border: hidden;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+}

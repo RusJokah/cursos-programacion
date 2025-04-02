@@ -3,24 +3,23 @@ h1{
 }
 .rojo{
     background-color: firebrick;
+    color: white;
 }
 .rosa{
-    background-color: hotpink;
+    border: 5px solid hotpink;
+    /*background-color: hotpink;*/
 }
 .amarillo{
-    background-color: gold;
+    border: 5px dashed rgb(255, 215, 0);
 }
 .violeta{
-    background-color: blueviolet;
+    border: 5px double #8a2be2;
 }
 .verde{
-    background-color: lime;
+    border: 5px dotted hsl(120, 100%, 50%);
 }
 .azul{
     background-color: turquoise;
-}
-.rojo, .rosa, .violeta{
-    color: white;
 }
 header {
     justify-content: space-between;
