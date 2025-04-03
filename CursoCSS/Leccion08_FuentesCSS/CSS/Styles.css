@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto&display=swap');
 header {
     justify-content: space-between;
     align-items: center;
@@ -37,4 +38,63 @@ h1{
     word-spacing: 3px;
     text-decoration: underline overline;
     text-underline-offset: 7px;
+}
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+.caja{
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_roboto{
+    /*font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 20px;*/
+    font: italic small-caps bolder 20px Roboto, sans-serif;
+    /* font: 1style 2variant 3weight 4*size 5/opcional-line-height 6*font-family; *=obligatorio*/
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em; /* 1em = 16px/16 = navegadores por default*/
+}
+.caja.sans-serif{
+    background-color: darkcyan;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 1.5vw; /* view width (viewport) 1vw = 1% de pantalla // escala con el eje horizontal de la ventana*/
+}
+.fuente_verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.caja.monospace{
+    background-color: #007BFF;
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.fuente_lucida{
+    font-family:'Lucida Handwriting', cursive, sans-serif;
+}
+.caja.cursive{
+    background-color: #499eff;
 }
