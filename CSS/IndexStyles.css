@@ -36,9 +36,11 @@ footer a{
     border-color: darkviolet;
 }
 legend{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(93, 0, 133);
+    padding: 10px;
 }
 .btn {
     padding: 5px 10px;
@@ -62,4 +64,10 @@ legend{
     float: right;
     margin-right: 150px;
     width: 500px;
+}
+fieldset{
+    padding: 10px 5px;
+    border: 2px double;
+    border-radius: 5px;
+    height: 300px;
 }

@@ -2,7 +2,6 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 5px;
     display: flex;
     width: 100%;
 }
@@ -39,6 +38,6 @@ body{
     background-image: url("/CursoCSS/Leccion06_Fondos/img/fondo.jpg");
     background-size: 100%;
     */
-    background: cornsilk url("/CursoCSS/Leccion06_Fondos/img/fondo.jpg") 100%;
+    background: cornsilk url("../img/fondo.jpg") 100%;
     background-attachment: fixed;
 }
