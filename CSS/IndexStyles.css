@@ -1,8 +1,3 @@
-*{
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-}
 .Leccionlink{
     text-decoration: none;
     background-color: white;
@@ -22,6 +17,7 @@
 h1{
     padding: 10px;
     margin: 20px 10px;
+    text-align: center;
 }
 footer{
     clear: both;
@@ -42,7 +38,7 @@ legend{
     color: rgb(93, 0, 133);
     padding: 10px;
 }
-.btn {
+.btn{
     padding: 5px 10px;
     background-color: #007bff;
     color: white;
@@ -51,27 +47,29 @@ legend{
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
-.btn:hover {
+.btn:hover{
     background-color: white;
     color: #007BFF;
 }
-#ListaCursoHTML{
-    float: left;
-    margin-left: 150px;
-    width: 500px;
-}
-#ListaCursoCSS{
-    float: right;
-    margin-right: 150px;
-    width: 500px;
+.centrarfieldset{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los fieldsets */
+    align-items: center; /* Centra los fieldsets verticalmente */
+    padding: 0 20px;
 }
 fieldset{
-    padding: 10px 5px;
     border: double;
     border-radius: 15px;
+    text-align: center;
     height: 320px;
-    max-height: 600px;
     box-sizing: border-box;
-    margin: auto;
-    width: 500px;
+    width: 40%;
 }
+.fieldset.ListaCursoHTML{
+    margin-left: 20px;
+}   
+.fieldset.ListaCursoCSS{
+    margin-right: 20px;
+}
+
