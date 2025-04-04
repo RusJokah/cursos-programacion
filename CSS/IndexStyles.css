@@ -70,6 +70,7 @@ fieldset{
     border: double;
     border-radius: 15px;
     height: 320px;
+    max-height: 600px;
     box-sizing: border-box;
     margin: auto;
     width: 500px;
