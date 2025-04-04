@@ -66,10 +66,4 @@ fieldset{
     box-sizing: border-box;
     width: 40%;
 }
-.fieldset.ListaCursoHTML{
-    margin-left: 20px;
-}   
-.fieldset.ListaCursoCSS{
-    margin-right: 20px;
-}
 
