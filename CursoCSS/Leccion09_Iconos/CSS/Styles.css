@@ -1,0 +1,57 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 40px auto 40px;
+    text-align: center;
+    color: rgb(149, 27, 165);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 86, 255);
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    vertical-align: bottom;
+}
+div.centrar{
+    padding: 5px;
+    margin: auto;
+    max-width: 400px;
+}
+.icono_rosa{
+    font-size: 2.5em; 
+    color:deeppink;
+    vertical-align: bottom;
+}
+.icono_rojo{
+    font-size: 2em;
+    color: crimson;
+    vertical-align: bottom;
+}

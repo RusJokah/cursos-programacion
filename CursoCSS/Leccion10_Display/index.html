@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad Display en CSS</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-buttons">
+            <a href="../Leccion09_Iconos/index.html" class="btn">Atrás: Lección 9</a>
+            <a href="../../index.html" class="btn center">Inicio</a>
+            <a href="../Leccion11" class="btn">Siguiente: Lección 11</a>
+        </div>
+    </header>
+    <h1>Propiedad Display en CSS</h1>
+    <div>
+        <h3>Display: Block; (es como viene por defecto)</h3>
+        <h2 class="block">Título</h2>
+        <div class="borde block">Div</div>
+        <p class="block">Texto con <span style="display: block;">Salto de línea</span></p>
+    </div>
+    <div>
+        <h3>Display: inline;</h3>
+        <h2 class="inline">Título</h2>
+        <div class="borde inline">Div</div>
+        <p class="inline">Texto con <span style="display: inline;">Salto de línea</span></p>
+    </div><br><br>
+    <div>
+        <h3>Por defecto, los links vienen en display: inline; igual que los elementos span, pero se pueden convertir a elementos display: block;</h3>
+        <a href="#" class="block">Link 1</a>
+        <a href="#" class="block">Link 2</a>
+        <a href="#" class="block">Link 3</a>
+    </div><br>
+    <h3>Elementos tipo lista, pasa alrevés, vienen por defecto tipo "block", pero se puede convertir en Display: inline;</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul><br>
+    <h3>Se puede ocultar por completo un elemento con Display: none; y no deja ningún hueco donde estaba.</h3>
+    <h3>Pero con visibility: hidden; solo se oculta el elemento, pero mantiene el hueco como si estuviese invisible.</h3>
+    <div class="invisible">
+        <h2>Título</h2>
+        <div class="borde">Div</div>
+        <p>Párrafo</p>
+    </div>
+</body>
+</html>
