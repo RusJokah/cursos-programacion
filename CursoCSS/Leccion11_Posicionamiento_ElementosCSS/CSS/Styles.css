@@ -1,0 +1,108 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 40px auto 40px;
+    text-align: center;
+    color: rgb(149, 27, 165);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 86, 255);
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    vertical-align: bottom;
+}
+div.estatico{
+    position: static;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: 10px auto;
+    padding: 10px;
+    border: 3px solid greenyellow;
+    background-color: azure;
+}
+div.relativo{
+    position: relative;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: 10px auto;
+    padding: 10px;
+    top: 30px;
+    left: 40px;
+}
+div.fijo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid firebrick;
+    width: 40%;
+}
+div.absoluto{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    border: 3px solid firebrick;
+}
+div.relativo_azul{
+    position: relative;
+    border: 3px solid cornflowerblue;
+    max-width: 40%;
+    height: 300px;
+    top: 10px;
+    left: 100px;
+    margin: 40px;
+}
+div.stickyy{
+    position: sticky;
+    /*position: -webkit-sticky; ESTO SE USA PARA QUE FUNCIONE EL STICKY EN SAFARI*/
+    top: 0;
+    border: 3px solid firebrick;
+}
+div.relativo_zindex{
+    position: relative;
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: 10px auto;
+    padding: 10px;
+    top: -25px;
+    left: 35px;
+    background-color: antiquewhite;
+}
+div.absoluto_zindex{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: azure;
+    padding: 50px;
+    z-index: 1;
+}

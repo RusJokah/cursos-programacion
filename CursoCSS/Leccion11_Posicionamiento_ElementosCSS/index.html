@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento Elementos en CSS</title>
+    <link href="CSS/Styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-buttons">
+            <a href="../Leccion10_Display/index.html" class="btn">Atrás: Lección 10</a>
+            <a href="../../index.html" class="btn center">Inicio</a>
+            <a href="../Leccion12" class="btn">Siguiente: Lección 12</a>
+        </div>
+    </header>
+    <h1>Centrar Elementos Div</h1>
+    <div class="estatico">
+        position: static; (así vienen por default)
+    </div>
+    <div class="relativo">
+        position: relative; añade a Top, right, left o bottom, los px que quiere que se mueva desde la posición original.
+    </div>
+    <div class="fijo">
+        position: fixed; (se queda fijo en la pantalla aunque hagas scroll) añade a Top, right... para mover el div (pero este parte del viewport completo).
+        <p>Normalmente usado para Navegadores</p>
+    </div>
+    <div class="relativo_azul">
+        Div Padre -> position: absolute; Es como el fixed, pero no se mueve con el Scroll, sino que se queda pegado donde está.
+        <div class="absoluto">
+            <p>Normalmente usado para posicionar otro elemento dentro de un Div.</p>
+        </div>
+    </div><div class="stickyy">
+        Elemento Div tipo Sticky. Funciona como un relativo hasta que sale de pantalla, cuando sale de pantalla, se queda fixed donde lo configuras el px de top, right, etc.
+        <p>Usado para navegadores fijos</p>
+    </div>
+    <div class="estatico">
+        Elemento no posicionado (static)
+    </div>
+    <div class="relativo_zindex">
+        Segundo elemento relativo. Con Z-INDEX -1
+        <div class="absoluto_zindex">
+            Tercer elemento absoluto.
+        </div>
+    </div>
+    <div style="padding-bottom: 1000px;">Párrafo para dar el margen</div>
+</body>
+</html>
