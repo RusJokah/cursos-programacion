@@ -1,0 +1,68 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 40px auto 40px;
+    text-align: center;
+    color: rgb(149, 27, 165);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 86, 255);
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-decoration: underline overline;
+    text-underline-offset: 7px;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    /* margin: auto; */
+    height: 100px;
+    /* Por default, overflow="visible" */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+div.contenedor.flotado{
+    float: left;
+}
+div.contenedor.flotado.contenedor1{
+    border: 3px dashed greenyellow;
+}
+div.contenedor.flotado.contenedor2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+}
+div.contenedor.contenedor3{
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
+}
