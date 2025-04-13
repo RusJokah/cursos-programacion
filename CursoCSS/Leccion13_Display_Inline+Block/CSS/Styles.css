@@ -42,28 +42,38 @@ h1{
     text-underline-offset: 7px;
 }
 div.contenedor{
-    border: 3px dashed greenyellow;
-    width: 30%;
-    padding: 10px;
-    /* margin: auto; */
-    height: 150px;
-    /* Por default, overflow="visible" */
-    /* overflow: hidden; */
-    /* overflow: scroll; */
+    width: 80%;
+    height: 20%;
     overflow: auto;
-}
-div.contenedor.flotado{
-    float: left;
-}
-div.contenedor.flotado.contenedor1{
-    border: 3px dashed greenyellow;
-}
-div.contenedor.flotado.contenedor2{
-    border: 3px dashed cornflowerblue;
-    float: right;
-}
-div.contenedor.contenedor3{
-    clear: both;
-    border: 3px dashed darkorange;
     margin: auto;
+    border: 3px dashed #a8dadc;
+    text-align: justify;
+    padding: 10px;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: paleturquoise;
+}
+li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
 }

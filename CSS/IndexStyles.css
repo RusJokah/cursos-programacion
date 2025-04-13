@@ -15,9 +15,15 @@
         border-color: #f72585;
     }
 h1{
-    padding: 10px;
-    margin: 20px 10px;
+    margin: 40px auto;
     text-align: center;
+    color: rgb(149, 27, 165);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 86, 255);
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-decoration: underline overline;
+    text-underline-offset: 7px;
 }
 footer{
     clear: both;
@@ -54,7 +60,7 @@ legend{
 .centrarfieldset{
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacio entre los fieldsets */
+    gap: 40px; /* Espacio entre los fieldsets */
     align-items: center; /* Centra los fieldsets verticalmente */
     padding: 0 20px;
 }
@@ -63,7 +69,7 @@ fieldset{
     border-radius: 15px;
     text-align: center; 
     box-sizing: border-box;
-    width: 40%;
+    width: 47%;
     min-height: 320px;
 }
 
