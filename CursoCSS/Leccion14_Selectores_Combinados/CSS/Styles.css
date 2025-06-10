@@ -41,3 +41,14 @@ h1{
     text-decoration: underline overline;
     text-underline-offset: 7px;
 }
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+}

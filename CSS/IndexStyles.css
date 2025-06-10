@@ -1,4 +1,4 @@
-.Leccionlink{
+fieldset.Leccionlink a{
     text-decoration: none;
     background-color: white;
     border: 2px solid #457b9d;
@@ -9,11 +9,11 @@
     font-size: 20px;
     border-radius: 10px 0 10px 0;
 }
-.Leccionlink:hover{
-        background-color: #8acdf7;
-        color:#f72585;
-        border-color: #f72585;
-    }
+fieldset.Leccionlink a:hover{
+    background-color: #8acdf7;
+    color:#f72585;
+    border-color: #f72585;
+}
 h1{
     margin: 40px auto;
     text-align: center;
