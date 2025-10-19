@@ -11,17 +11,37 @@
         <div class="nav-buttons">
             <a href="../Leccion13_Display_Inline+Block/index.html" class="btn">Atrás: Lección 13</a>
             <a href="../../index.html" class="btn center">Inicio</a>
-            <a href="../Leccion15" class="btn">Siguiente: Lección 15</a>
+            <a href="../Leccion15_Pseudo_Clases/index.html" class="btn">Siguiente: Lección 15</a>
         </div>
     </header>
     <h1>Selectores Combinados en CSS</h1>
     <div class="contenedor descendiente">
         Selectores Descendientes (en cualquier nivel interno):
-        <p>Primer renglón</p>
-        <p>Segundo renglón</p>
+        <p>Primera fila</p>
+        <p>Segunda fila</p>
         <section>
-            <p>Tercer renglón</p>
+            <p>Tercera fila</p>
         </section>
     </div>
+    <div class="contenedor hijo">
+        Selectores Child (solo a nivel directo):
+        <p>Primera fila</p>
+        <p>Segunda fila</p>
+        <section>
+            <p>Tercera fila</p>
+        </section>
+    </div>
+    <div class="contenedor adyacente">
+        Selector adyacente (+):
+        <p>Primera fila</p>
+    </div>
+    <p>Segunda fila</p>
+    <p>Tercera fila</p>
+        <div class="contenedor hermano">
+        Selector adyacente, más los hermanos siguientes (~):
+        <p>También se le llama Selector Sibling</p>
+    </div>
+    <p>Segunda fila</p>
+    <p>Tercera fila</p>
 </body>
 </html>
