@@ -1,0 +1,68 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: white;
+    color: #007BFF;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 40px auto 40px;
+    text-align: center;
+    color: rgb(149, 27, 165);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 86, 255);
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-decoration: underline overline;
+    text-underline-offset: 7px;
+}
+div.contenedor{
+    width: 30%;
+    height: 60%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+img{
+    width: 50%;
+    height: auto;
+}
+div.cabecero{
+    background-color: #6ecbe8;
+    padding: 20px;
+}
+div.cuerpo{
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(103, 156, 199);
+    color: rgb(1, 63, 114)
+}
