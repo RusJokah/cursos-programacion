@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Builds y caché
+dist/
+build/
+.angular/
+.cache/
+*.log
+npm-debug.log*
+
+# Variables de entorno / secretos
+.env
+.env.*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
