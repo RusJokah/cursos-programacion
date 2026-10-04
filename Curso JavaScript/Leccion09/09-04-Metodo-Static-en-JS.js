@@ -68,5 +68,5 @@ console.log(Empleado.contadorPersonas); // 2. Variable de clase, se puede accede
 
 console.log(persona1.email); // "Valor por defecto". Variable de instancia, se puede acceder desde un objeto
 
-empleado1.email = "dmitry@gmail.com"; // Modifica el valor de la variable de instancia
-console.log(empleado1.email); // "dmitry@gmail.com", los demás objetos no les afecta
+empleado1.email = "dmitry@ejemplo.com"; // Modifica el valor de la variable de instancia
+console.log(empleado1.email); // "dmitry@ejemplo.com", los demás objetos no les afecta
